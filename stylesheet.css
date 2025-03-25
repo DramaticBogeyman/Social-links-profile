@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.cont {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    padding: 25px 25px 20px 25px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.171);
+}
+
+.avatar {
+    width: 50%;
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: 450;
+}
+
+.loc {
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 10px;
+}
+
+.desc {
+    color: rgba(255, 255, 255, 0.836);
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.links {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.btn:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
